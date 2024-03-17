@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirection DexScreener</title>
+    <style>
+      body {
+        width: 300px;
+        height: 200px;
+        margin: 0;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+
+      #tokenAddress {
+        font-weight: bold; /* Rend le texte en gras */
+      }
+      #redirectSection {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Redirection pour le token</div>
+    <div id="tokenAddress"></div>
+    <!-- L'adresse du token sera insérée ici -->
+    <div id="redirectSection" style="display: none">
+      <button id="redirectBtn">Rediriger vers DexScreener</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
