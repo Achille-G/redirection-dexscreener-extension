@@ -1,0 +1,1 @@
+# redirection-dexscreener-extension
